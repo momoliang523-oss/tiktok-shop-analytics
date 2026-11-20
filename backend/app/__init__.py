@@ -1,0 +1,3 @@
+"""
+TikTok Shop Analytics Application
+"""

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# Env & secrets
+.env*
+!.env.example
+
+# Logs / OS
+*.log
+.DS_Store
+
+# Local database
+*.db
+
+# 真实导入数据(含店铺 Room/Creator ID,不入库)
+data/imports/*.xlsx
+data/imports/*.csv
+docs/*.csv

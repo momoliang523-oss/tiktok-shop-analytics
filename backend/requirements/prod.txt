@@ -1,0 +1,10 @@
+-r base.txt
+
+# Production Server
+gunicorn==21.2.0
+
+# Monitoring
+prometheus-fastapi-instrumentator==7.0.0
+
+# AWS (Optional for S3 storage)
+boto3==1.29.7
